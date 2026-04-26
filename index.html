@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Arc Daily Claim</title>
+</head>
+<body style="text-align:center; font-family:sans-serif;">
+
+  <h1>🔥 Arc Daily Claim</h1>
+  <button onclick="claim()">Claim Now</button>
+  <h2 id="result"></h2>
+
+  <script>
+    function claim() {
+      let points = Math.floor(Math.random() * 100) + 1;
+      document.getElementById("result").innerText =
+        "You earned " + points + " points!";
+    }
+  </script>
+
+</body>
+</html>
